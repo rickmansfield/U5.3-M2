@@ -23,3 +23,13 @@ Queue is used when things don’t have to be processed immediately, but have to 
     - Mail Queues
     ```
 5. Variations: ( Deque, Priority Queue, Doubly Ended Priority Queue )
+
+Real life examples of stack are:
+
+- To reverse a word. You push a given word to stack - letter by letter - and then pop letters from the stack.
+- An "undo" mechanism in text editors; this operation is accomplished by keeping all text changes in a stack.Undo/Redo stacks in Excel or Word.
+- Language processing :space for parameters and local variables is created internally using a stack.compiler's syntax check for matching braces is implemented by using stack.
+- A stack of plates/books in a cupboard.
+- Wearing/Removing Bangles.
+- Support for recursion
+- Activation records of method calls.
