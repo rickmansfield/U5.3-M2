@@ -17,10 +17,14 @@ def queueOnStacks(requests):
     right = Stack()
 
     def insert(x):
-        ...
+        left.push(x)
+
 
     def remove():
-        ...
+        if not left.isEmpty():
+            right.push(left.items.pop(0))
+            return right.pop()
+
 
     ans = []
     for request in requests:
