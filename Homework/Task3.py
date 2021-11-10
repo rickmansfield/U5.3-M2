@@ -19,12 +19,10 @@ def queueOnStacks(requests):
     def insert(x):
         left.push(x)
 
-
     def remove():
         if not left.isEmpty():
             right.push(left.items.pop(0))
             return right.pop()
-
 
     ans = []
     for request in requests:
@@ -34,3 +32,7 @@ def queueOnStacks(requests):
         else:
             ans.append(remove())
     return ans
+
+
+print(queueOnStacks(["push 1", "push 2","pop", "push 3", "pop"]))
+# print(queueOnStacks(["push 0"]))
